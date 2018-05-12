@@ -17,12 +17,7 @@ public class Solution {
 		scan.close();
 	}
 
-	/**
-	 * In order to avoid leaving unchecked positions, this particular solution
-	 * requires that the leap move in the loop is placed before the option to return
-	 * to the previous leap position and that the forward steps in the loop are
-	 * placed before the backward steps.
-	 */
+
 	public static boolean canWin(int leap, int[] game) {
 
 		boolean result = true;
